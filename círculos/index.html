@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    .fundo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F0FFFF;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .circulo-superior-esquerdo {
+        background-color:#F08080;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        position: absolute;
+        top: 8px;
+        left: 16px;
+    }
+
+    .circulo-inferior-esquerdo {
+        background-color: 	#2E8B57;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 8px;
+        left: 16px;
+    }
+
+    .circulo-superio-direito {
+        background-color: 	#1E90FF;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        position: absolute;
+        top: 8px;
+        right: 16px;
+    
+    }
+
+    .circulo-inferior-direito {
+        background-color:	#6959CD;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 8px;
+        right: 16px;
+    }
+
+    .circulo-centro-filho{
+        background-color:	#FF6347;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        position: absolute;
+        text-align: center;
+    }
+
+
+    .circulo-centro {
+        background-color: 	#C0C0C0;
+        display: absolute;
+        align-items: center;
+        justify-content: center;
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+
+    }
+</style>
+
+<body>
+    <div class="fundo">
+        <div class="circulo-centro"></div>
+        <div class="circulo-superior-esquerdo"></div>
+        <div class="circulo-inferior-esquerdo"></div>
+        <div class="circulo-superio-direito"></div>
+        <div class="circulo-inferior-direito"></div>
+        <div class="circulo-centro-filho"></div>
+
+    </div>
+</body>
+
+</html>
